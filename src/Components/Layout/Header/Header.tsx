@@ -23,15 +23,15 @@ const Header = () => {
                 </button>
                 <div className="flex text-lg font-bold">
                     <Image src="/logo.svg" alt="Logo" width={50} height={50} className="mr-2 fill-brand text-brand" />
-                    <span className="pt-2">Chatbot</span>
+                    <span className="pt-2">Code Llama on Akash</span>
                 </div>
             </div>
             <div className="flex items-center gap-4 ">
                 <b>Current Model:</b> <a href="https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf" target="_blank">
                     <span className="">codellama/CodeLlama-34b-Instruct-hf</span>
                 </a>
-                <a href="https://github.com/gsaivinay/awesome-chatbot" target="_blank">
-                    <AiOutlineGithub className="text-4xl hover:text-brand" />
+                <a href="" target="_blank">
+                   
                 </a>
                 <button className="button-core rounded-lg border-brand/30" onClick={toggleRightSidebar}>
                     {rightSidebarOpen ? <FiChevronRight className="text-xl" /> : <FiChevronLeft className="text-xl" />}
