@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <Head>
-                <title>Open Assistant</title>
+                <title>Code Llama on Akash</title>
                 <meta content="yes" />
                 <meta content="Chatbot UI"></meta>
             </Head>
