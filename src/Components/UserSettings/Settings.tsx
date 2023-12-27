@@ -74,7 +74,7 @@ const SettingsModal: FC<PropsWithChildren> = memo(() => {
                             maxDropdownHeight={180}
                             onChange={setCurrentTheme}
                         />
-                        <PasswordInput label="API Key:" placeholder="API Key" classNames={SelectInputClasses} />
+                      
                     </div>
                 </div>
             </Modal>
