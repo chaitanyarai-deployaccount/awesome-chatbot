@@ -1,18 +1,18 @@
-FROM node:20.5.0-alpine
+FROM node:20.0.0
 
-# Install pnpm globally
+
 RUN npm install -g pnpm
 
 WORKDIR /frontend
 
 COPY package*.json ./
 
-RUN npm install
+RUN pnpm install
 
-RUN npm run build
+RUN pnpm run build
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
