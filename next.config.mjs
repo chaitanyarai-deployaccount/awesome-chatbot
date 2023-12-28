@@ -7,7 +7,6 @@ const __dirname = dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
     productionBrowserSourceMaps: false,
     reactStrictMode: false,
     webpack(config, { dev, isServer }) {
