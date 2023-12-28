@@ -27,8 +27,8 @@ const Header = () => {
                 </div>
             </div>
             <div className="flex items-center gap-4 ">
-                <b>Current Model:</b> <a href="https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf" target="_blank">
-                    <span className="">codellama/CodeLlama-34b-Instruct-hf</span>
+                <b>Current Model:</b> <a href="" target="_blank">
+                    <span className="">CodeLlama-34b</span>
                 </a>
                 <a href="" target="_blank">
                    
