@@ -9,7 +9,7 @@ import { HuggingFaceStream } from "../../utils/streams/huggingface-stream";
 import { StreamingTextResponse } from "../../utils/streams/streaming-text-response";
 
 // Create a new HuggingFace Inference instance
-const Hf = new HfInference(process.env.HUGGINGFACE_API_KEY);
+const Hf = new HfInference("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");
 const HfCustom = Hf.endpoint("http://localhost:8010/");
 
 // IMPORTANT! Set the runtime to edge
